@@ -4,5 +4,13 @@
   "private": true,
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "scripts": {
+    "dev:desktop": "yarn workspace @my-workspace/desktop dev",
+    "dev:mobile": "yarn workspace @my-workspace/mobile dev",
+    "build:desktop": "yarn workspace @my-workspace/desktop build",
+    "build:mobile": "yarn workspace @my-workspace/mobile build",
+    "build:shared": "yarn workspace @my-workspace/shared build"
+  },
+  "packageManager": "yarn@3.2.0"
 }

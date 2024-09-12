@@ -1,6 +1,15 @@
 {
-  "name": "shared",
+  "name": "@my-workspace/shared",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "build": "npx vite build"
+  },
+  "devDependencies": {
+    "vite": "^4.3.9"
+  }
 }
