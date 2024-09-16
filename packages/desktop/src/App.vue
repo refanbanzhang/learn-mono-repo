@@ -1,10 +1,11 @@
 <script setup lang="ts">
-import { logo, icon } from '@my-workspace/shared';
+import { SECRET_KEY, add } from '@my-workspace/shared';
 </script>
 
 <template>
   <div>
-    <img :src="logo" alt="Logo" />
-    <img :src="icon" alt="Icon" />
+    <h1>Hello world!</h1>
+    <div>add(1, 2): {{ add(1, 2) }}</div>
+    <div>SECRET_KEY: {{ SECRET_KEY }}</div>
   </div>
 </template>
