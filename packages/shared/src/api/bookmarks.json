@@ -1,0 +1,139 @@
+[
+  {
+    "children": [
+      {
+        "dateAdded": 1707028974101,
+        "id": "157",
+        "index": 0,
+        "parentId": "6",
+        "title": "第五章：信息隐藏(和泄露)",
+        "url": "https://go7hic.github.io/A-Philosophy-of-Software-Design/?continueFlag=150e6b32c3089223c72c8435f1d2914d#/./ch5"
+      },
+      {
+        "dateAdded": 1718347430736,
+        "id": "308",
+        "index": 1,
+        "parentId": "6",
+        "title": "免费在线体验OpenAI的先进多模态AI平台GPT-4",
+        "url": "https://gpt4o.so/zh-CN/app/9d64d946b94cd75eacdd6ccc5caeb581"
+      },
+      {
+        "dateAdded": 1720775285879,
+        "id": "315",
+        "index": 2,
+        "parentId": "6",
+        "title": "Learn CSS Layout The Pedantic Way",
+        "url": "https://book.mixu.net/css/"
+      }
+    ],
+    "dateAdded": 1653665275150,
+    "dateGroupModified": 1721446593798,
+    "id": "6",
+    "index": 0,
+    "parentId": "1",
+    "title": "首页（最多5个）"
+  },
+  {
+    "children": [
+      {
+        "dateAdded": 1720864409414,
+        "id": "319",
+        "index": 0,
+        "parentId": "318",
+        "title": "零基础学好英语语法 - Lesson15 介词 in的用法 - 邱律苍 - 微信读书",
+        "url": "https://weread.qq.com/web/reader/732328b0718995a47324961k3c5327902153c59dc0488e1"
+      },
+      {
+        "dateAdded": 1720869546836,
+        "id": "320",
+        "index": 1,
+        "parentId": "318",
+        "title": "你会得到自己日复一日重复的东西，也会成为自己日复一日成为的人。（100%行动力复苏指南！）_哔哩哔哩_bilibili",
+        "url": "https://www.bilibili.com/video/BV19b421e78U/?vd_source=e2695a3d3360ced326696031d113c602"
+      },
+      {
+        "dateAdded": 1717838623517,
+        "dateLastUsed": 1720864220465,
+        "id": "301",
+        "index": 2,
+        "parentId": "318",
+        "title": "【TED科普】为什么我能每天学习12小时？从被看不起到发誓逆袭",
+        "url": "https://www.bilibili.com/video/BV1TE421575c/?p=2&spm_id_from=333.880.my_history.page.click&vd_source=e2695a3d3360ced326696031d113c602"
+      },
+      {
+        "dateAdded": 1721446593798,
+        "id": "328",
+        "index": 3,
+        "parentId": "318",
+        "title": "【TED科普】如何停止害羞和尴尬？_哔哩哔哩_bilibili",
+        "url": "https://www.bilibili.com/video/BV1Qw4m1Y7zw/?spm_id_from=333.1007.tianma.1-1-1.click&vd_source=e2695a3d3360ced326696031d113c602"
+      }
+    ],
+    "dateAdded": 1720864406095,
+    "dateGroupModified": 1726177675661,
+    "id": "318",
+    "index": 1,
+    "parentId": "1",
+    "title": "学习（最多5个）"
+  },
+  {
+    "children": [
+      {
+        "dateAdded": 1694656441671,
+        "id": "66",
+        "index": 0,
+        "parentId": "62",
+        "title": "华成峰协同办公系统",
+        "url": "https://oa.hua-cloud.com.cn/wui/index.html#/?_key=2wee3m"
+      },
+      {
+        "dateAdded": 1694656523589,
+        "id": "67",
+        "index": 1,
+        "parentId": "62",
+        "title": "(4452封未读邮件)深圳市华云中盛科技股份有限公司",
+        "url": "http://mail.hua-cloud.com.cn/alimail/"
+      }
+    ],
+    "dateAdded": 1694570159389,
+    "dateGroupModified": 1708480569676,
+    "id": "62",
+    "index": 2,
+    "parentId": "1",
+    "title": "工作（最多5个）"
+  },
+  {
+    "children": [
+      {
+        "dateAdded": 1712045174942,
+        "id": "267",
+        "index": 0,
+        "parentId": "238",
+        "title": "ADHD",
+        "url": "https://www.youtube.com/watch?v=RG2IK8oRZNA&t=14420s"
+      },
+      {
+        "dateAdded": 1721612441559,
+        "id": "330",
+        "index": 1,
+        "parentId": "238",
+        "title": "ADHD-节拍",
+        "url": "https://www.youtube.com/watch?v=zhgq1Wf1Snk"
+      },
+      {
+        "dateAdded": 1720846530827,
+        "id": "316",
+        "index": 2,
+        "parentId": "238",
+        "title": "【皎月云间之梦 Jade Moon Upon a Sea of Clouds】Disc 2 - 山巅清心云间月 Shimmering Sea of Clouds and Moonlight｜原神 - YouTube",
+        "url": "https://www.youtube.com/watch?v=c0jZ7sPyouE&list=PLqWr7dyJNgLJyzgpXNBQ7LIkQr_I0ULbb&index=3&t=2419s"
+      }
+    ],
+    "dateAdded": 1710724565884,
+    "dateGroupModified": 1722750715488,
+    "id": "238",
+    "index": 3,
+    "parentId": "1",
+    "title": "bgm（最多5个）"
+  }
+]

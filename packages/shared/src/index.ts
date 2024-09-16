@@ -1,17 +1,18 @@
 import img from './assets/images/1.jpg';
+import icon from './assets/images/hourglass.svg'
+import { fetchBookmarks } from './api';
+import { Bookmark } from './types';
 
-// 导出 img
-export { img };
+const SECRET_KEY = '123456'
 
-// // 导出所有图片
-// const images = import.meta.glob('./assets/images/*.{jpg,png,svg}', { eager: true }) as Record<string, { default: string }>;
-// export const imageExports = Object.fromEntries(
-//   Object.entries(images).map(([key, { default: value }]) => [key.split('/').pop()?.split('.')[0], value])
-// );
+const add = (a: number, b: number) => a + b
 
-export const SECRET_KEY = '123456'
-
-export const add = (a: number, b: number) => {
-  return a + b
+export {
+  img,
+  icon,
+  SECRET_KEY,
+  add,
+  fetchBookmarks,
 }
 
+export type { Bookmark }
