@@ -1,6 +1,10 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue';
-import { SECRET_KEY, add, img, icon, fetchBookmarks, Bookmark } from '@my-workspace/shared';
+import { SECRET_KEY, add } from '@my-workspace/shared/constants';
+import img from '@my-workspace/shared/assets/images/1.jpg';
+import icon from '@my-workspace/shared/assets/images/hourglass.svg';
+import { fetchBookmarks } from '@my-workspace/shared/api';
+import type { Bookmark } from '@my-workspace/shared/types';
 
 const bookmarks = ref<Bookmark[]>([]);
 const loading = ref(true);
