@@ -17,16 +17,34 @@ onMounted(async () => {
 </script>
 
 <template>
-  <div class="container mx-auto px-4 py-8">
-    <h2 class="text-2xl font-bold mb-4">Bookmarks</h2>
-    <div v-if="loading" class="text-gray-600">Loading bookmarks...</div>
-    <div v-else class="bg-gray-100 p-4 rounded-lg">
-      <pre class="text-sm">{{ JSON.stringify(bookmarks, null, 2) }}</pre>
+  <div class="py-4">
+    <div class="section">
+      <div class="cell">最近使用</div>
+      <div class="cell">我的收藏</div>
     </div>
   </div>
 </template>
 
 <style scoped>
+.section {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 0 32px;
+}
+
+.cell {
+  flex: 1;
+  height: 160px;
+  border-radius: 24px;
+  background: blueviolet;
+
+  padding: 24px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 42px;
+}
+
 pre {
   @apply text-left whitespace-pre-wrap break-words;
 }
