@@ -10,7 +10,16 @@
     "dev:mobile": "yarn workspace @my-workspace/mobile dev",
     "build:desktop": "yarn workspace @my-workspace/desktop build",
     "build:mobile": "yarn workspace @my-workspace/mobile build",
-    "build:shared": "yarn workspace @my-workspace/shared build"
+    "build:all": "yarn build:desktop && yarn build:mobile"
   },
-  "packageManager": "yarn@3.2.0"
+  "packageManager": "yarn@3.2.0",
+  "dependencies": {
+    "@my-workspace/shared": "workspace:*",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9"
+  }
 }

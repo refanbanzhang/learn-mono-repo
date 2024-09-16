@@ -221,10 +221,6 @@ __metadata:
   resolution: "@my-workspace/desktop@workspace:packages/desktop"
   dependencies:
     "@my-workspace/shared": "workspace:*"
-    "@vitejs/plugin-vue": ^4.2.3
-    typescript: ^5.0.2
-    vite: ^4.3.9
-    vue: ^3.3.4
   languageName: unknown
   linkType: soft
 
@@ -233,10 +229,6 @@ __metadata:
   resolution: "@my-workspace/mobile@workspace:packages/mobile"
   dependencies:
     "@my-workspace/shared": "workspace:*"
-    "@vitejs/plugin-vue": ^4.2.3
-    typescript: ^5.0.2
-    vite: ^4.3.9
-    vue: ^3.3.4
   languageName: unknown
   linkType: soft
 
@@ -1005,6 +997,12 @@ __metadata:
 "my-workspace@workspace:.":
   version: 0.0.0-use.local
   resolution: "my-workspace@workspace:."
+  dependencies:
+    "@my-workspace/shared": "workspace:*"
+    "@vitejs/plugin-vue": ^4.2.3
+    typescript: ^5.0.2
+    vite: ^4.3.9
+    vue: ^3.3.4
   languageName: unknown
   linkType: soft
 
