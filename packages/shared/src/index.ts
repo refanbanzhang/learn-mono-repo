@@ -1,6 +1,7 @@
-// // 导出图片
-// export { default as logo } from './assets/images/1.jpg';
-// // 添加更多图片导出...
+import img from './assets/images/1.jpg';
+
+// 导出 img
+export { img };
 
 // // 导出所有图片
 // const images = import.meta.glob('./assets/images/*.{jpg,png,svg}', { eager: true }) as Record<string, { default: string }>;
@@ -13,3 +14,4 @@ export const SECRET_KEY = '123456'
 export const add = (a: number, b: number) => {
   return a + b
 }
+
