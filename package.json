@@ -8,9 +8,10 @@
   "scripts": {
     "dev:desktop": "yarn workspace @my-workspace/desktop dev",
     "dev:mobile": "yarn workspace @my-workspace/mobile dev",
+    "dev": "concurrently \"yarn dev:desktop\" \"yarn dev:mobile\"",
     "build:desktop": "yarn workspace @my-workspace/desktop build",
     "build:mobile": "yarn workspace @my-workspace/mobile build",
-    "build:all": "yarn build:desktop && yarn build:mobile"
+    "build": "yarn build:desktop && yarn build:mobile"
   },
   "packageManager": "yarn@3.2.0",
   "dependencies": {
@@ -18,8 +19,13 @@
     "vue": "^3.3.4"
   },
   "devDependencies": {
+    "@types/node": "^22.5.5",
     "@vitejs/plugin-vue": "^4.2.3",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.0",
     "typescript": "^5.0.2",
-    "vite": "^4.3.9"
+    "vite": "^4.3.9",
+    "concurrently": "^8.2.0"
   }
 }

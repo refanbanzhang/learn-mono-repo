@@ -17,19 +17,17 @@ onMounted(async () => {
 </script>
 
 <template>
-  <div>
-    <h2>Bookmarks</h2>
-    <div v-if="loading">Loading bookmarks...</div>
-    <div v-else>
-      <pre>{{ JSON.stringify(bookmarks, null, 2) }}</pre>
+  <div class="container mx-auto px-4 py-8">
+    <h2 class="text-2xl font-bold mb-4">Bookmarks</h2>
+    <div v-if="loading" class="text-gray-600">Loading bookmarks...</div>
+    <div v-else class="bg-gray-100 p-4 rounded-lg">
+      <pre class="text-sm">{{ JSON.stringify(bookmarks, null, 2) }}</pre>
     </div>
   </div>
 </template>
 
 <style scoped>
 pre {
-  text-align: left;
-  white-space: pre-wrap;
-  word-wrap: break-word;
+  @apply text-left whitespace-pre-wrap break-words;
 }
 </style>
