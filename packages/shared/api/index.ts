@@ -1,5 +1,5 @@
 import bookmarks from './bookmarks.json';
-import { Bookmark } from '../types';
+import { Bookmark } from './types';
 
 export const fetchBookmarks = (): Promise<Bookmark[]> => {
   return new Promise((resolve) => {
