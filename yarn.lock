@@ -354,6 +354,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/web-bluetooth@npm:^0.0.20":
+  version: 0.0.20
+  resolution: "@types/web-bluetooth@npm:0.0.20"
+  checksum: d6d61da683e876e8995ac57e2e5229d829d0f536deb3568d4430898fc626ebcb7e065fe7f655ac6a5205702f7f7049e6335abe689cd5291241eef6e39e8a4371
+  languageName: node
+  linkType: hard
+
 "@vitejs/plugin-vue@npm:^4.2.3":
   version: 4.6.2
   resolution: "@vitejs/plugin-vue@npm:4.6.2"
@@ -461,6 +468,34 @@ __metadata:
   version: 3.5.4
   resolution: "@vue/shared@npm:3.5.4"
   checksum: 7c47e95c8f3eed3c7164e03529e6e43c70144152f5d4d3308759878ab318437ef6ef6a0c8033a6270b7b3a866ef50f2cea600bd479f097b32bada8126f6afea3
+  languageName: node
+  linkType: hard
+
+"@vueuse/core@npm:^11.1.0":
+  version: 11.1.0
+  resolution: "@vueuse/core@npm:11.1.0"
+  dependencies:
+    "@types/web-bluetooth": ^0.0.20
+    "@vueuse/metadata": 11.1.0
+    "@vueuse/shared": 11.1.0
+    vue-demi: ">=0.14.10"
+  checksum: b7528c0808847a41192e9de61079ef37e6b0fd758309459707f46d62a111cfcd38c96f82543bbee8b8294488b7aecf3a2799793e0f686bec4018d2b4541cc464
+  languageName: node
+  linkType: hard
+
+"@vueuse/metadata@npm:11.1.0":
+  version: 11.1.0
+  resolution: "@vueuse/metadata@npm:11.1.0"
+  checksum: a5c69597d7ce3cb6f082069c016f95af40cc6b8fb131227567c6418f33ca14d25573b331ff2ebac86627b302fe300c728311fb25492127d05a79ad27201655b7
+  languageName: node
+  linkType: hard
+
+"@vueuse/shared@npm:11.1.0":
+  version: 11.1.0
+  resolution: "@vueuse/shared@npm:11.1.0"
+  dependencies:
+    vue-demi: ">=0.14.10"
+  checksum: 332a5d9935016d1a5975e7a4aab7eb5fabc247ae48a1fc783919f480601652b6267d20aa07c88f389e972c318890bb921d66adfdb8754db5b4da5201f2c07bc3
   languageName: node
   linkType: hard
 
@@ -1468,6 +1503,7 @@ __metadata:
     "@my-workspace/shared": "workspace:*"
     "@types/node": ^22.5.5
     "@vitejs/plugin-vue": ^4.2.3
+    "@vueuse/core": ^11.1.0
     autoprefixer: ^10.4.14
     concurrently: ^8.2.0
     postcss: ^8.4.21
@@ -2253,6 +2289,22 @@ __metadata:
   bin:
     vite: bin/vite.js
   checksum: fd3f512ce48ca2a1fe60ad0376283b832de9272725fdbc65064ae9248f792de87b0f27a89573115e23e26784800daca329f8a9234d298ba6f60e808a9c63883c
+  languageName: node
+  linkType: hard
+
+"vue-demi@npm:>=0.14.10":
+  version: 0.14.10
+  resolution: "vue-demi@npm:0.14.10"
+  peerDependencies:
+    "@vue/composition-api": ^1.0.0-rc.1
+    vue: ^3.0.0-0 || ^2.6.0
+  peerDependenciesMeta:
+    "@vue/composition-api":
+      optional: true
+  bin:
+    vue-demi-fix: bin/vue-demi-fix.js
+    vue-demi-switch: bin/vue-demi-switch.js
+  checksum: 9b4106f99be3b0c1dd4a6dc5725f5e8f79c6b98d1eeb849bf2c54416cd77f4aa344960b202768865245cfa82d57f49a9d96f67f5d8e256604b9dac1c5df9a8d6
   languageName: node
   linkType: hard
 
