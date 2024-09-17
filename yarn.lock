@@ -299,11 +299,6 @@ __metadata:
   resolution: "@my-workspace/mobile@workspace:packages/mobile"
   dependencies:
     "@my-workspace/shared": "workspace:*"
-    "@types/node": ^18.x.x
-    autoprefixer: ^10.x.x
-    postcss: ^8.4.x
-    tailwindcss: ^3.x.x
-    ts-node: ^10.9.1
     vant: ^4.9.6
   languageName: unknown
   linkType: soft
@@ -402,15 +397,6 @@ __metadata:
   version: 16.18.108
   resolution: "@types/node@npm:16.18.108"
   checksum: 5029ce7b0d247690360f2698da4fe765ef5cd5e2409b63b3a45e90bbf7bbaaf3497e769336fb7725be04a221d6e934e3a4616ec7fc205812943def3ea9d70862
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:^18.x.x":
-  version: 18.19.50
-  resolution: "@types/node@npm:18.19.50"
-  dependencies:
-    undici-types: ~5.26.4
-  checksum: 73bdd2b46fb96816a1f7309e1b609f0832a29739c87df7daa729ff497160be143e02cf18486a0112e1981b092358aed3ca0716b532aff93c7e05f7dbb4f7586a
   languageName: node
   linkType: hard
 
@@ -696,7 +682,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:^10.4.0, autoprefixer@npm:^10.x.x":
+"autoprefixer@npm:^10.4.0":
   version: 10.4.20
   resolution: "autoprefixer@npm:10.4.20"
   dependencies:
@@ -1927,7 +1913,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.4.0, postcss@npm:^8.4.23, postcss@npm:^8.4.x":
+"postcss@npm:^8.4.0, postcss@npm:^8.4.23":
   version: 8.4.47
   resolution: "postcss@npm:8.4.47"
   dependencies:
@@ -2264,7 +2250,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:^3.0.0, tailwindcss@npm:^3.x.x":
+"tailwindcss@npm:^3.0.0":
   version: 3.4.11
   resolution: "tailwindcss@npm:3.4.11"
   dependencies:
@@ -2423,13 +2409,6 @@ __metadata:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: 2eee5c37cad4390385db5db5a8e81470e42e8f1401b0358d7390095d6f681b410f2c4a0c496c6ff9ebd775423c7785cdace7bcdad76c7bee283df3d9718c0f20
-  languageName: node
-  linkType: hard
-
-"undici-types@npm:~5.26.4":
-  version: 5.26.5
-  resolution: "undici-types@npm:5.26.5"
-  checksum: 3192ef6f3fd5df652f2dc1cd782b49d6ff14dc98e5dced492aa8a8c65425227da5da6aafe22523c67f035a272c599bb89cfe803c1db6311e44bed3042fc25487
   languageName: node
   linkType: hard
 
