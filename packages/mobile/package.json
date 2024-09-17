@@ -7,6 +7,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@my-workspace/shared": "workspace:*"
+    "@my-workspace/shared": "workspace:*",
+    "vant": "^4.9.6"
+  },
+  "devDependencies": {
+    "@types/node": "^18.x.x",
+    "autoprefixer": "^10.x.x",
+    "postcss": "^8.4.x",
+    "tailwindcss": "^3.x.x",
+    "ts-node": "^10.9.1"
   }
 }

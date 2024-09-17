@@ -1,5 +1,7 @@
 import { createApp } from 'vue'
+import vant from 'vant';
 import App from './App.vue'
-import './index.css'  // 添加这一行
+import 'vant/lib/index.css';
+import './index.css'
 
-createApp(App).mount('#app')
+createApp(App).use(vant).mount('#app')

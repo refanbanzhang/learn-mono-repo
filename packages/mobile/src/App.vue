@@ -18,6 +18,7 @@ onMounted(async () => {
 
 <template>
   <div class="py-4">
+    <van-button type="primary">Primary</van-button>
     <div class="section">
       <div class="cell">最近使用</div>
       <div class="cell">我的收藏</div>
