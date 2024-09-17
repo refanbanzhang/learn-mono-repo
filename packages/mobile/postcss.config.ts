@@ -4,6 +4,7 @@ const config: Config = {
   plugins: [
     require('tailwindcss')('./tailwind.config.ts'),
     require('autoprefixer'),
+    require('./postcss-half-px'),
   ],
 };
 
