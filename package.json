@@ -11,7 +11,7 @@
     "dev": "concurrently \"yarn dev:desktop\" \"yarn dev:mobile\"",
     "build:desktop": "yarn workspace @my-workspace/desktop build",
     "build:mobile": "yarn workspace @my-workspace/mobile build",
-    "build": "yarn build:desktop && yarn build:mobile"
+    "build": "concurrently \"yarn build:desktop\" \"yarn build:mobile\""
   },
   "packageManager": "yarn@3.2.0",
   "dependencies": {
