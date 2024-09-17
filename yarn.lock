@@ -1624,7 +1624,6 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "my-workspace@workspace:."
   dependencies:
-    "@my-workspace/shared": "workspace:*"
     "@types/node": ^16.0.0
     "@types/postcss-load-config": ^3.0.0
     "@vitejs/plugin-vue": ^4.2.3
