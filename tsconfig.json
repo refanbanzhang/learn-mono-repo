@@ -2,8 +2,6 @@
   "compilerOptions": {
     // 指定 ECMAScript 目标版本，这里设置为最新版本
     "target": "ESNext",
-    // 使用 define 来声明类字段，提高性能
-    "useDefineForClassFields": true,
     // 指定生成哪个模块系统代码，这里使用 ES 模块
     "module": "ESNext",
     // 决定如何处理模块，这里使用 Node.js 风格的解析

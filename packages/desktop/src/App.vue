@@ -2,6 +2,7 @@
 import { useAsyncState } from '@vueuse/core';
 import type { Bookmark } from '@my-workspace/shared/api/types';
 import { fetchBookmarks } from '@my-workspace/shared/api';
+import Header from '@/components/header/index.vue';
 
 const { state: bookmarks, isLoading, error } = useAsyncState<Bookmark[]>(
   fetchBookmarks,
@@ -12,6 +13,7 @@ const { state: bookmarks, isLoading, error } = useAsyncState<Bookmark[]>(
 
 <template>
   <div class="container mx-auto px-4 py-8">
+    <Header />
     <h2 class="text-2xl font-bold mb-4">书签</h2>
     <div v-if="isLoading" class="text-gray-600">
       正在加载书签...
